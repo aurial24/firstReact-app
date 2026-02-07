@@ -1,11 +1,11 @@
 function ListGroup() {
     const items = [
         'New York',
-        'San Fran'
+        'San Fran',
     ]
 
     //Event Handler for mouse click
-    const handleClick = (event : React.MouseEvent<HTMLLIElement>) => console.log(event)
+    // const handleClick = (event : React.MouseEvent<HTMLLIElement>) => console.log(event)
     const handleItemClick = (item : string) => console.log("handleItemClick: " + item)
     //
     // if (items.length === 0) {
